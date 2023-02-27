@@ -1,0 +1,27 @@
+.button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    padding: 1em;
+    width: 80px;
+    height: 80px;
+    transition: .3s all ease;
+}
+
+.button:hover {
+    background-color: yellow;
+    box-shadow: 0em 0em 2em 6px gold;
+    transform: scale(1.2) translateY(-1em);
+}
+
+.button:active {
+    background-color: yellowgreen;
+    box-shadow: 0em 0em 2em 6px limegreen;
+
+}
+
+.button img {
+    object-fit: cover;
+    width: 100%;
+    mix-blend-mode: darken;
+}
